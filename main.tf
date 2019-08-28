@@ -112,7 +112,7 @@ resource "azurerm_virtual_machine" "tf-bastion-win-vm" {
     version   = "latest"
   }
   storage_os_disk {
-    name              = "${var.tf-bastion-win-vm-name}-os-disk-${var.environment}"
+    name              = "${var.prefix}-bastion-win-vm-os-disk-${var.environment}"
     caching           = "ReadWrite"
     create_option     = "FromImage"
     managed_disk_type = "Standard_LRS"
