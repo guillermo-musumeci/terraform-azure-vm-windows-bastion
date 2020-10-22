@@ -5,4 +5,4 @@ Deploy a Windows Bastion VM, located inside a subnet and with a public IP addres
 
 Update the storage_image_reference / sku to change the Windows version to Windows Server 2019/2016/2012 R2 
 
-Sample code compatible with AzureRM v1.x
+Sample code compatible with **AzureRM v1.x**
